@@ -96,12 +96,8 @@ z-index: 2;
     line-height: 1.2;
     font-size: 18px;
     font-weight: normal;
-}
-
-.two-columns__brief_link {
     text-decoration: none;
-    color: #2F80ED
-    ;
+    color: #2F80ED;
 }
 
 .two-columns__main-text {
@@ -119,7 +115,7 @@ margin: 0;
 margin-bottom: 30px;
 }
 
-.span-accent {
+.two-columns__span-accent {
     font-weight: bold;
     line-height: 34px;
     font-size: 24px;
@@ -271,13 +267,11 @@ margin-bottom: 30px;
 .table__cell_theme_dark {
     width: 200px;
     color: white;
-    margin-top: 80px;
+    margin: 0;
+    margin-bottom: 80px;
 }
 
 .section-title_theme_dark {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
     color: white;
     line-height: 69px;
     font-size: 60px;
@@ -285,17 +279,20 @@ margin-bottom: 30px;
     margin: 0;
     margin-top: 90px;
     margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
 }
 
 .section-subtitle_theme_dark {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
     color: white;
     line-height: 34px;
     font-size: 24px;
     font-weight: normal;
     margin: 0;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .table__heading_theme_dark {
@@ -319,7 +316,7 @@ margin-bottom: 30px;
     width: 877px;
     height: 877px;
     top: 0;
-    right: -200px;
+    right: -210px;
 }
 
 .footer {
@@ -333,7 +330,6 @@ margin-bottom: 30px;
     width: 90%;
     margin-left: auto;
     margin-right: auto;
-    border: 1px solid thistle;
     padding-top: 60px;
     padding-bottom: 40px;
 }
@@ -375,9 +371,17 @@ margin-bottom: 30px;
     font-weight: bold;
     margin: 0;
     margin-bottom: 20px;
+    text-decoration: none;
 }
 
 .footer__column-links {
+    list-style-type: none;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+}
+
+.footer__column-link {
     display: flex;
     color: white;
     line-height: 30px;
@@ -385,6 +389,7 @@ margin-bottom: 30px;
     font-weight: normal;
     margin: 0;
     margin-bottom: 16px;
+    text-decoration: none;
 }
 
 .footer__column_content_social {
@@ -392,7 +397,7 @@ margin-bottom: 30px;
     color: white;
     display: flex;
     flex-direction: column;
-
+    right: 25%;
 }
 
 .footer__social-icon-heading {
@@ -401,9 +406,9 @@ margin-bottom: 30px;
 }
 
 .footer__social-icon {
-    text-decoration: none;
-    color: white;
+    width: 16px;
+    height: 16px;
     margin: 0;
-    margin-bottom: 16px;
+    margin-right: 10px;
 }
 
