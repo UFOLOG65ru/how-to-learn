@@ -48,6 +48,14 @@ z-index: 3;
     ;
 }
 
+.header__link:hover {
+    color: darkgray;
+}
+
+.header__link:active {
+    color: dimgrey;
+}
+
 .header__main-illustration {
 position: absolute;
 width: 765px;
@@ -69,12 +77,15 @@ z-index: 2;
 
 }
 
+.logo {
+     width: 183px;
+    height: 32px;
+}
+
 .logo_place_header {
     position: absolute;
     left: 64px;
     top: 30px;
-    width: 183px;
-    height: 32px;
 }
 
 .description {
@@ -123,7 +134,7 @@ margin-bottom: 30px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 100px;
+    margin-bottom: 40px;
 
 }
 
@@ -146,9 +157,6 @@ margin-bottom: 30px;
     font-size: 24px;
     font-weight: normal;
     margin: 0;
-    margin-bottom: 60px;
-
-    
 }
 
 .table {
@@ -158,6 +166,7 @@ margin-bottom: 30px;
     width: 1100px;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 60px;
 }
 
 .table__cell {
@@ -229,6 +238,14 @@ margin-bottom: 30px;
     font-weight: normal;
 }
 
+.feinman__link:hover {
+    color: darkgray;
+}
+
+.feinman__link:active {
+    color: dimgrey;
+}
+
 .feinman__image {
     position: absolute;
     left: 0;
@@ -241,76 +258,47 @@ margin-bottom: 30px;
     position: relative;
     display: flex;
     flex-direction: column;
-    
     overflow: hidden;
     margin: 0;
     background-color:  #1F1F1F;
     z-index: 0;
 }
 
-.table_theme_dark {
-    display: flex;
-    flex-wrap: wrap;
-    z-index: 2;
-    width: 1100px;
-    margin: 0;
-    margin-top: 80px;
-    margin-bottom: 90px;
+.section-title_theme_dark {
+    color: white;
+    margin-top: 90px;
     margin-left: auto;
     margin-right: auto;
+}
 
+.section-subtitle_theme_dark {
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.table_theme_dark {
+    margin-top: 80px;
+    margin-bottom: 90px;
+    z-index: 1;
 }
 
 /* и элемента с модификатором вида ключ-значение */
 .table__cell_theme_dark {
     width: 200px;
-    color: white;
-    margin: 0;
     margin-bottom: 80px;
 }
 
-.section-title_theme_dark {
-    color: white;
-    line-height: 69px;
-    font-size: 60px;
-    font-weight: bold;
-    margin: 0;
-    margin-top: 90px;
-    margin-bottom: 20px;
-    margin-left: auto;
-    margin-right: auto;
-    width: 60%;
-}
-
-.section-subtitle_theme_dark {
-    color: white;
-    line-height: 34px;
-    font-size: 24px;
-    font-weight: normal;
-    margin: 0;
-    width: 60%;
-    margin-left: auto;
-    margin-right: auto;
-}
-
 .table__heading_theme_dark {
-    line-height: 1.15;
-    font-size: 24px;
-    font-weight: bold;
-    margin: 0;
-    margin-bottom: 20px;
+    color: white;
 }
 
 .table__text_theme_dark {
-    line-height: 1.2;
-    font-size: 16px;
-    font-weight: normal;
-    margin: 0;
+    color: white;
 }
 
 .kaufman__triangle {
     position: absolute;
-    z-index: 1;
     width: 877px;
     height: 877px;
     top: 0;
@@ -323,8 +311,10 @@ margin-bottom: 30px;
 }
 
 .footer__columns {
+    color: white;
     display: flex;
     justify-content: space-between;
+    min-height: 350px;
     width: 90%;
     margin-left: auto;
     margin-right: auto;
@@ -340,30 +330,26 @@ margin-bottom: 30px;
 }
 
 .logo_place_footer {
-    display: flex;
-    width: 183px;
+    background-image: url(../images/logo_white.svg);
     height: 35px;
-    
 }
 
 .footer__author {
-    display: flex;
-    color: white;
     line-height: 25px;
     font-size: 18px;
     font-weight: normal;
+    margin-top: 18px;
     margin-bottom: 18px;
+}
+.footer__column {
+    
 }
 
 .footer__column_content_info {
-    display: flex;
-    flex-direction: column;
     right: 25%;
 }
 
 .footer__column-heading {
-    display: flex;
-    color: white;
     line-height: 30px;
     font-size: 18px;
     font-weight: bold;
@@ -374,27 +360,28 @@ margin-bottom: 30px;
 
 .footer__column-links {
     list-style-type: none;
-    text-align: left;
     margin: 0;
+    margin-bottom: 16px;
     padding: 0;
 }
 
 .footer__column-link {
-    display: flex;
     color: white;
     line-height: 30px;
     font-size: 18px;
     font-weight: normal;
-    margin: 0;
-    margin-bottom: 16px;
     text-decoration: none;
 }
 
+.footer__column-link:hover {
+    color: darkgray;
+}
+
+.footer__column-link:active {
+    color: dimgrey;
+}
+
 .footer__column_content_social {
-    right: 0;
-    color: white;
-    display: flex;
-    flex-direction: column;
     right: 25%;
 }
 
