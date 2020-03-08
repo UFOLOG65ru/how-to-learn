@@ -1,3 +1,10 @@
+@keyframes rotate-square {
+    from {transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
 .page {
     min-width: 1100px;
     /* мы ещё не умеем делать мобильную версию сайта, */
@@ -74,7 +81,8 @@ z-index: 2;
     width: 568px;
     background-color: #2F80ED;
     z-index: 0;
-
+    transform: rotate(-15deg);
+    animation: rotate-square linear 20s infinite;
 }
 
 .logo {
@@ -100,7 +108,6 @@ z-index: 2;
     justify-content: space-between;
     width: 80%;
     margin-top: 100px;
-    margin-bottom: 100px;
 }
 
 .two-columns__brief {
@@ -128,6 +135,58 @@ margin-bottom: 30px;
     font-weight: bold;
     line-height: 34px;
     font-size: 24px;
+}
+
+.technics {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 100px;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    width: 920px;   
+}
+
+.cards__item {
+    display: flex;
+    flex-direction: column;
+    width: 240px;
+    justify-content: flex-start;
+    margin-right: 100px;
+}
+.cards__item:nth-child(3) {
+    margin-right: 0px;
+}
+
+.cards__image {
+    width:  160px;
+    height: 160px;
+    border-radius: 50%;
+    margin-top: 60px;
+    margin-bottom: 43px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.cards__title {
+    margin-bottom: 16px;
+    text-align: center;
+    line-height: 1.15;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.cards__description {
+    text-align: center;
+    margin-bottom: 60px;
+    line-height: 23px;
+    font-size: 18px;
+    font-weight: normal;
 }
 
 .digits {
@@ -164,6 +223,7 @@ margin-bottom: 30px;
     flex-wrap: wrap;
     justify-content: space-between;
     width: 1100px;
+    margin: 0;
     margin-left: auto;
     margin-right: auto;
     margin-top: 60px;
@@ -171,7 +231,6 @@ margin-bottom: 30px;
 
 .table__cell {
     display: flex;
-    flex-wrap: wrap;
     flex-direction: column;
     width: 250px;
     margin: 0;
@@ -182,7 +241,6 @@ margin-bottom: 30px;
     line-height: 1.15;
     font-size: 24px;
     font-weight: bold;
-    display: flex;
     margin: 0;
     margin-bottom: 20px;
 
@@ -261,7 +319,6 @@ margin-bottom: 30px;
     overflow: hidden;
     margin: 0;
     background-color:  #1F1F1F;
-    z-index: 0;
 }
 
 .section-title_theme_dark {
