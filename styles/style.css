@@ -190,15 +190,24 @@ margin-bottom: 30px;
 }
 
 .video {
+<<<<<<< HEAD
+=======
+    position: relative;
+>>>>>>> 4d0ab4084a884eddb7060163e4598ccffa042d46
     margin-top: 100px;
     display: flex;
     flex-direction: column;
     align-items: center;
     margin: 0 auto;
+<<<<<<< HEAD
+=======
+    min-height: 486px;
+>>>>>>> 4d0ab4084a884eddb7060163e4598ccffa042d46
     margin-top: 40px;
 }
 
 .video__iframes {
+<<<<<<< HEAD
     display: flex;
     flex-direction: row;
     margin: 0 auto;
@@ -208,6 +217,21 @@ margin-bottom: 30px;
 
 .video__iframe:first-child {
     margin-right: 20px;
+=======
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    min-height: 316px;
+    bottom: -50px;
+}
+
+.video__iframe {
+   
+    margin-right: 20px;
+    width: 515px;
+    height: 316px;
+>>>>>>> 4d0ab4084a884eddb7060163e4598ccffa042d46
 }
 
 .oakley {
@@ -345,6 +369,10 @@ margin-bottom: 30px;
 .khan {
     background-color: #F2F2F2;
     padding-top: 100px;
+<<<<<<< HEAD
+=======
+    height: 1030px;
+>>>>>>> 4d0ab4084a884eddb7060163e4598ccffa042d46
 }
 
 .khan__container {
@@ -390,6 +418,7 @@ margin-bottom: 30px;
     color:  #2F80ED;
 }
 
+<<<<<<< HEAD
 .khan__buy-link:hover {
     opacity: 0.4;
     transition:1s ease;
@@ -398,16 +427,21 @@ margin-bottom: 30px;
 .khan__buy-link:active {
     color: dimgrey;
 }
+=======
+>>>>>>> 4d0ab4084a884eddb7060163e4598ccffa042d46
 .khan__book-container {
     position: relative;
 }
 
 .khan__book-pic {
     margin-right: 20px;
+<<<<<<< HEAD
     width: 620px;
     height: 608px;
     object-fit: cover;
     object-position: top;
+=======
+>>>>>>> 4d0ab4084a884eddb7060163e4598ccffa042d46
 }
 
 .khan__buy-link {
@@ -483,11 +517,14 @@ margin-bottom: 30px;
 .resources__logo {
     width: 270px;
     height: 38px;
+<<<<<<< HEAD
 }
 
 .resources__logo:hover {
     opacity: 0.4;
     transition:1s ease;
+=======
+>>>>>>> 4d0ab4084a884eddb7060163e4598ccffa042d46
 }
 
 .footer {
