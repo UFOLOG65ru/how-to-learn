@@ -1,6 +1,6 @@
+@import url(__iframe/video__iframe.css);
 @import url(__iframes/video__iframes.css);
-@import url(/blocks/section-title/section-title.css);
-@import url(/blocks/section-subtitle/section-subtitle.css);
+
 .video {
     margin-top: 100px;
     display: flex;

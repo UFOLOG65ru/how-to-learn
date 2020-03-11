@@ -8,8 +8,6 @@
 @import url(__column/footer__column.css);
 @import url(__columns/footer__columns.css);
 @import url(__social-icon/footer__social-icon.css);
-@import url(/blocks/logo/logo.css);
-@import url(/blocks/logo/_place_footer/logo_place_footer.css);
 
 .footer {
     min-height: 350px;

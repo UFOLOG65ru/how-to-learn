@@ -7,5 +7,5 @@
     background-color: #2F80ED;
     z-index: 0;
     transform: rotate(-15deg);
-    animation: rotate linear 20s infinite;
+    animation: rotate_square linear 20s infinite;
 }
