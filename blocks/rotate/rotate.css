@@ -1,7 +1,9 @@
+@import url(_square/rotate_square.css);
+
 @keyframes rotate {
     from {transform: rotate(0deg);
     }
     to {
-        transform: rotate(345deg);
+        transform: rotate(360deg);
     }
 }
